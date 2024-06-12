@@ -1,0 +1,150 @@
+2024-05-28 21:55:45 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-28 21:55:45 INFO  c.k.c.CleanSpringBootProjectApplication - Starting CleanSpringBootProjectApplication using Java 22.0.1 with PID 5980 (D:\Projects\6. Food\clean-spring-boot-project\target\classes started by Kawser in D:\Projects\6. Food\clean-spring-boot-project)
+2024-05-28 21:55:45 INFO  c.k.c.CleanSpringBootProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-28 21:55:45 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-28 21:55:45 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-28 21:55:46 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-28 21:55:46 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
+2024-05-28 21:55:47 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-05-28 21:55:47 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-28 21:55:47 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-28 21:55:47 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-28 21:55:47 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-28 21:55:47 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2449 ms
+2024-05-28 21:55:47 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-28 21:55:48 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@14100007
+2024-05-28 21:55:48 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-28 21:55:48 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+2024-05-28 21:55:48 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+2024-05-28 21:55:48 INFO  o.f.c.i.license.VersionPrinter - 
+2024-05-28 21:55:48 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/Java_Test (PostgreSQL 16.1)
+2024-05-28 21:55:48 WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: PostgreSQL 16.1 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+2024-05-28 21:55:48 INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.028s)
+2024-05-28 21:55:48 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2024-05-28 21:55:48 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2024-05-28 21:55:48 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-28 21:55:48 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-28 21:55:48 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-05-28 21:55:48 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-28 21:55:48 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-28 21:55:49 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-28 21:55:49 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-28 21:55:50 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-28 21:55:51 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-05-28 21:55:51 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@59e6a045, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20e59a, org.springframework.security.web.context.SecurityContextHolderFilter@49f459d2, org.springframework.security.web.header.HeaderWriterFilter@9940c6a, org.springframework.web.filter.CorsFilter@491beb9a, org.springframework.security.web.authentication.logout.LogoutFilter@601ca861, com.kawser.cleanspringbootproject.auth.config.security.SecurityFilter@6c2ae7f0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8fbbcf7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@250da714, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63796103, org.springframework.security.web.session.SessionManagementFilter@6f6f9992, org.springframework.security.web.access.ExceptionTranslationFilter@824797a, org.springframework.security.web.access.intercept.AuthorizationFilter@61558533]
+2024-05-28 21:55:51 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-05-28 21:55:51 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-05-28 21:55:51 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-05-28 21:55:51 INFO  c.k.c.CleanSpringBootProjectApplication - Started CleanSpringBootProjectApplication in 7.414 seconds (process running for 8.594)
+2024-05-28 21:55:51 INFO  c.k.c.CleanSpringBootProjectApplication - Application started successfully!
+2024-05-28 22:21:15 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-28 22:21:15 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-28 22:21:15 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-05-28 22:21:16 INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 434 ms
+2024-05-28 22:22:06 INFO  c.k.c.a.s.impl.AuthenticationService - Received data to login
+2024-05-28 22:22:07 INFO  c.k.c.a.s.impl.AuthenticationService - User logged in: LoginResponseDTO[token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhdXRoLXNlcnZpY2UiLCJzdWIiOiJoYW1pZCIsImV4cCI6MTcxNjkyMDUyN30.waO9tx9Lt7CXSkcln9e5u22ZGLhVzc9Vj1Nxo3T1b6M]
+2024-05-28 22:23:03 INFO  c.k.c.a.s.impl.PasswordResetService - Received data to request a password reset
+2024-05-28 22:24:23 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.lang.String> com.kawser.cleanspringbootproject.auth.controllers.PasswordResetController.reset(java.lang.String,java.lang.String,com.kawser.cleanspringbootproject.auth.models.dto.password.PasswordResetDTO)]
+2024-05-28 22:25:23 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [2] in public org.springframework.http.ResponseEntity<java.lang.String> com.kawser.cleanspringbootproject.auth.controllers.PasswordResetController.reset(java.lang.String,java.lang.String,com.kawser.cleanspringbootproject.auth.models.dto.password.PasswordResetDTO): [Field error in object 'passwordResetDTO' on field 'password': rejected value [string]; codes [ValidPassword.passwordResetDTO.password,ValidPassword.password,ValidPassword.java.lang.String,ValidPassword]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [passwordResetDTO.password,password]; arguments []; default message [password]]; default message [Invalid password]] ]
+2024-05-28 22:25:48 INFO  c.k.c.a.s.impl.PasswordResetService - Received data to reset a password
+2024-05-28 22:25:53 INFO  c.k.c.a.s.impl.AuthenticationService - Received data to login
+2024-05-28 22:25:53 INFO  c.k.c.a.s.impl.AuthenticationService - User logged in: LoginResponseDTO[token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhdXRoLXNlcnZpY2UiLCJzdWIiOiJoYW1pZCIsImV4cCI6MTcxNjkyMDc1M30.92jtjLqRRxl6pLUAOg_bYZuhTNnyxFZkHOiSeo9wlSI]
+2024-05-28 22:30:36 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-28 22:30:36 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-28 22:30:36 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-05-28 22:45:05 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-28 22:45:05 INFO  c.k.c.CleanSpringBootProjectApplication - Starting CleanSpringBootProjectApplication using Java 22.0.1 with PID 10152 (D:\Projects\6. Food\clean-spring-boot-project\target\classes started by Kawser in D:\Projects\6. Food\clean-spring-boot-project)
+2024-05-28 22:45:05 INFO  c.k.c.CleanSpringBootProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-28 22:45:05 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-28 22:45:05 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-28 22:45:06 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-28 22:45:06 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2024-05-28 22:45:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-05-28 22:45:07 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-28 22:45:07 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-28 22:45:07 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-28 22:45:07 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-28 22:45:07 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2358 ms
+2024-05-28 22:45:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-28 22:45:08 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7896bd4d
+2024-05-28 22:45:08 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-28 22:45:08 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+2024-05-28 22:45:08 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+2024-05-28 22:45:08 INFO  o.f.c.i.license.VersionPrinter - 
+2024-05-28 22:45:08 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/Java_Test (PostgreSQL 16.1)
+2024-05-28 22:45:08 WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: PostgreSQL 16.1 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+2024-05-28 22:45:08 INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.023s)
+2024-05-28 22:45:08 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2024-05-28 22:45:08 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2024-05-28 22:45:08 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-28 22:45:08 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-28 22:45:08 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-05-28 22:45:09 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-28 22:45:09 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-28 22:45:10 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-28 22:45:10 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-28 22:45:10 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-28 22:45:11 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-05-28 22:45:11 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@23cbff7d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@cc0c13a, org.springframework.security.web.context.SecurityContextHolderFilter@22395e8a, org.springframework.security.web.header.HeaderWriterFilter@658aaf76, org.springframework.web.filter.CorsFilter@556f48f0, org.springframework.security.web.authentication.logout.LogoutFilter@189ba761, com.kawser.cleanspringbootproject.auth.config.security.SecurityFilter@d158d9e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45c4c14c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5bccfc91, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1d99a1ea, org.springframework.security.web.session.SessionManagementFilter@3b859719, org.springframework.security.web.access.ExceptionTranslationFilter@375845e0, org.springframework.security.web.access.intercept.AuthorizationFilter@6861631e]
+2024-05-28 22:45:12 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-05-28 22:45:12 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-05-28 22:45:12 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-05-28 22:45:12 INFO  c.k.c.CleanSpringBootProjectApplication - Started CleanSpringBootProjectApplication in 7.209 seconds (process running for 8.182)
+2024-05-28 22:45:12 INFO  c.k.c.CleanSpringBootProjectApplication - Application started successfully!
+2024-05-28 22:45:17 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-28 22:45:17 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-28 22:45:17 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-05-28 22:45:17 INFO  c.k.c.a.s.impl.AuthenticationService - Received data to login
+2024-05-28 22:45:18 INFO  c.k.c.a.s.impl.AuthenticationService - User logged in: LoginResponseDTO[token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhdXRoLXNlcnZpY2UiLCJzdWIiOiJoYW1pZCIsImV4cCI6MTcxNjkyMTkxOH0.I-Fxh-OHCLWnY-F7E9Y7qMFdDDqNCigTiqTQeOAaYK4]
+2024-05-28 22:45:21 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-28 22:45:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-28 22:45:21 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-05-28 22:53:55 INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-05-28 22:53:55 INFO  c.k.c.CleanSpringBootProjectApplication - Starting CleanSpringBootProjectApplication using Java 22.0.1 with PID 11124 (D:\Projects\6. Food\clean-spring-boot-project\target\classes started by Kawser in D:\Projects\6. Food\clean-spring-boot-project)
+2024-05-28 22:53:55 INFO  c.k.c.CleanSpringBootProjectApplication - No active profile set, falling back to 1 default profile: "default"
+2024-05-28 22:53:55 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-05-28 22:53:55 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-05-28 22:53:57 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-28 22:53:57 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83 ms. Found 2 JPA repository interfaces.
+2024-05-28 22:53:58 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-05-28 22:53:58 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-05-28 22:53:58 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-05-28 22:53:58 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-28 22:53:58 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-05-28 22:53:58 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3141 ms
+2024-05-28 22:53:58 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-05-28 22:53:59 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ab68b67
+2024-05-28 22:53:59 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-05-28 22:53:59 INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 9.22.3 by Redgate
+2024-05-28 22:53:59 INFO  o.f.c.i.license.VersionPrinter - See release notes here: https://rd.gt/416ObMi
+2024-05-28 22:53:59 INFO  o.f.c.i.license.VersionPrinter - 
+2024-05-28 22:53:59 INFO  org.flywaydb.core.FlywayExecutor - Database: jdbc:postgresql://localhost:5432/Java_Test (PostgreSQL 16.1)
+2024-05-28 22:53:59 WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: PostgreSQL 16.1 is newer than this version of Flyway and support has not been tested. The latest supported version of PostgreSQL is 15.
+2024-05-28 22:53:59 INFO  o.f.core.internal.command.DbValidate - Successfully validated 1 migration (execution time 00:00.033s)
+2024-05-28 22:53:59 INFO  o.f.core.internal.command.DbMigrate - Current version of schema "public": 1
+2024-05-28 22:53:59 INFO  o.f.core.internal.command.DbMigrate - Schema "public" is up to date. No migration necessary.
+2024-05-28 22:53:59 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-28 22:53:59 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-28 22:53:59 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-05-28 22:53:59 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-28 22:53:59 WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-05-28 22:54:01 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-28 22:54:01 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-28 22:54:02 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-28 22:54:02 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-05-28 22:54:02 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@59f3e7ed, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5bb9ad70, org.springframework.security.web.context.SecurityContextHolderFilter@30870ada, org.springframework.security.web.header.HeaderWriterFilter@2de10774, org.springframework.web.filter.CorsFilter@e75c657, org.springframework.security.web.authentication.logout.LogoutFilter@18393759, com.kawser.cleanspringbootproject.auth.config.security.SecurityFilter@33531de2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@300e4dfb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70f6dbb7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@26c23bf0, org.springframework.security.web.session.SessionManagementFilter@7a0d372a, org.springframework.security.web.access.ExceptionTranslationFilter@5d37b2b7, org.springframework.security.web.access.intercept.AuthorizationFilter@2ca81689]
+2024-05-28 22:54:03 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-05-28 22:54:03 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-05-28 22:54:03 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-05-28 22:54:03 INFO  c.k.c.CleanSpringBootProjectApplication - Started CleanSpringBootProjectApplication in 8.735 seconds (process running for 9.687)
+2024-05-28 22:54:03 INFO  c.k.c.CleanSpringBootProjectApplication - Application started successfully!
+2024-05-28 22:54:04 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-28 22:54:04 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-28 22:54:04 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-05-28 22:54:05 INFO  c.k.c.a.s.impl.AuthenticationService - Received data to login
+2024-05-28 22:54:05 INFO  c.k.c.a.s.impl.AuthenticationService - User logged in: LoginResponseDTO[token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhdXRoLXNlcnZpY2UiLCJzdWIiOiJoYW1pZCIsImV4cCI6MTcxNjkyMjQ0NX0.mRJ0x37VQXnyI8YVQ5bfkowYQ1pF7R152aFV2pA1Aus]
+2024-05-28 22:54:06 INFO  c.k.c.a.s.impl.AuthenticationService - Received data to login
+2024-05-28 22:54:06 INFO  c.k.c.a.s.impl.AuthenticationService - User logged in: LoginResponseDTO[token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhdXRoLXNlcnZpY2UiLCJzdWIiOiJoYW1pZCIsImV4cCI6MTcxNjkyMjQ0Nn0.faxof9peG3uBZTzT4Whh6vX9TMnnAVHV2bSckM_KBJQ]
+2024-05-28 22:54:10 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-28 22:54:10 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-05-28 22:54:10 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
