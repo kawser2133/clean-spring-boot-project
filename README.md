@@ -181,3 +181,17 @@ my-spring-boot-app/
 
 - **The API documentation is available at http://localhost:8080/swagger-ui/index.html after the application is started.**
     - It provides detailed information about the available endpoints, their request parameters, and response formats.
+ 
+
+## Authors
+
+If you have any questions or need further assistance, please contact the project author at [@kawser2133](https://www.github.com/kawser2133) || [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kawser2133)
+
+## Contributing
+
+I want you to know that contributions to this project are welcome. Please open an issue or submit a pull request if you have any ideas, bug fixes, or improvements.  
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
